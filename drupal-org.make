@@ -27,9 +27,6 @@ projects[backup_migrate][version] = 2.4
 projects[better_formats][subdir] = contrib
 projects[better_formats][version] = 1.2
 
-projects[cable_broadcast_import][subdir] = contrib
-projects[cable_broadcast_import][version] = 1.0
-
 projects[cacheexclude][subdir] = contrib
 projects[cacheexclude][version] = 2.1
 
@@ -69,9 +66,6 @@ projects[cvs_deploy][version] = 1.1
 projects[date][subdir] = contrib
 projects[date][version] = 2.8
 
-projects[districts_map][subdir] = contrib
-projects[districts_map][version] = 1.0-beta1
-
 projects[email][subdir] = contrib
 projects[email][version] = 1.2
 
@@ -92,9 +86,6 @@ projects[filefield][version] = 3.10
 
 projects[flag][subdir] = contrib
 projects[flag][version] = 1.3
-
-projects[front_page][subdir] = contrib
-projects[front_page][version] = 1.0-beta2
 
 projects[gmap][subdir] = contrib
 projects[gmap][version] = 1.1
@@ -119,9 +110,6 @@ projects[imce][version] = 2.2
 
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.1
-
-projects[issues_page][subdir] = contrib
-projects[issues_page][version] = 1.0-beta2
 
 ; projects[rpx][subdir] = contrib
 ; projects[rpx][version] = 1.x-dev:DEV-NO-EXACT-VERSION
@@ -264,8 +252,8 @@ projects[token][version] = 1.18
 projects[twitter][subdir] = contrib
 projects[twitter][version] = 3.0
 
-projects[user_list][subdir] = contrib
-projects[user_list][version] = 1.x-dev:DEV-NO-EXACT-VERSION
+; projects[user_list][subdir] = contrib
+; projects[user_list][version] = 1.x-dev:DEV-NO-EXACT-VERSION
 
 projects[vertical_tabs][subdir] = contrib
 projects[vertical_tabs][version] = 1.0-rc2
@@ -304,6 +292,19 @@ projects[wysiwyg][version] = 2.4
 
 ; projects[nyss_senator_context][subdir] = contrib
 ; projects[nyss_senator_context][version] = 1.0-beta2
+
+; projects[cable_broadcast_import][subdir] = contrib
+; projects[cable_broadcast_import][version] = 1.0
+
+; projects[districts_map][subdir] = contrib
+; projects[districts_map][version] = 1.0-beta1
+
+; projects[front_page][subdir] = contrib
+; projects[front_page][version] = 1.0-beta2
+
+; projects[issues_page][subdir] = contrib
+; projects[issues_page][version] = 1.0-beta2
+
 
 ; Development modules ===========================================================
 
