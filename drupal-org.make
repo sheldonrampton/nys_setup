@@ -3,9 +3,6 @@ core = 6.x
 
 ; Modules =====================================================================
 
-projects[diff][subdir] = contrib
-projects[diff][version] = 3.2
-
 projects[acquia_connector][subdir] = contrib
 projects[acquia_connector][version] = 2.4
 
@@ -126,8 +123,8 @@ projects[imce_wysiwyg][version] = 1.1
 projects[issues_page][subdir] = contrib
 projects[issues_page][version] = 1.0-beta2
 
-projects[rpx][subdir] = contrib
-projects[rpx][version] = 1.x-dev:DEV-NO-EXACT-VERSION
+; projects[rpx][subdir] = contrib
+; projects[rpx][version] = 1.x-dev:DEV-NO-EXACT-VERSION
 
 projects[jcarousel][subdir] = contrib
 projects[jcarousel][version] = 1.1
@@ -197,12 +194,6 @@ projects[nodereference_views][version] = 1.3
 
 projects[nodequeue][subdir] = contrib
 projects[nodequeue][version] = 2.10
-
-projects[nyss_organization][subdir] = contrib
-projects[nyss_organization][version] = 1.0-beta3
-
-projects[nyss_senator_context][subdir] = contrib
-projects[nyss_senator_context][version] = 1.0-beta2
 
 projects[og_user_roles][subdir] = contrib
 projects[og_user_roles][version] = 4.1
@@ -307,6 +298,12 @@ projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.4
 
 ; NYSenate.gov modules =====================================================================
+
+; projects[nyss_organization][subdir] = contrib
+; projects[nyss_organization][version] = 1.0-beta3
+
+; projects[nyss_senator_context][subdir] = contrib
+; projects[nyss_senator_context][version] = 1.0-beta2
 
 ; Development modules ===========================================================
 
