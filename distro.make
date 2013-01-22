@@ -11,7 +11,9 @@ api = 2
 core = 6.x
 
 projects[drupal][type] = core
-projects[drupal][version] = "6.27"
+projects[drupal][version] = "6.28"
+projects[nys_setup][download][type] = git
+projects[nys_setup][download][url] = https://github.com/pressflow/6.git
 
 ; Use vocabulary machine name for permissions
 ; http://drupal.org/node/995156
