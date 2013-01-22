@@ -366,6 +366,16 @@ projects[webform_validation][version] = 1.5
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.4
 
+; Custom directory modules =====================================================================
+
+; Keep
+projects[cacheexclude][subdir] = custom
+projects[cacheexclude][version] = 2.1
+
+; Delete
+projects[whitelist][subdir] = custom
+projects[whitelist][version] = 1.0
+
 ; NYSenate.gov modules =====================================================================
 
 ; projects[nyss_organization][subdir] = contrib
