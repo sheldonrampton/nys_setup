@@ -355,7 +355,7 @@ projects[views_daterange][subdir] = contrib
 projects[views_daterange][version] = 1.0
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.14
+projects[webform][version] = 3.18
 
 projects[webform_conditional][subdir] = contrib
 projects[webform_conditional][version] = 1.1
