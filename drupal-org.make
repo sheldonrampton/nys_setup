@@ -3,14 +3,6 @@ core = 6.x
 
 ; Modules =====================================================================
 
-; Delete
-projects[boost][subdir] = contrib
-projects[boost][version] = 1.0-beta2
-
-; Delete
-projects[chartbeat][subdir] = contrib
-projects[chartbeat][version] = 1.2
-
 ; Keep
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.26
@@ -19,37 +11,9 @@ projects[devel][version] = 1.26
 projects[drupalforfirebug][subdir] = contrib
 projects[drupalforfirebug][version] = 1.3
 
-; Delete
-projects[fivestar][subdir] = contrib
-projects[fivestar][version] = 1.19
-
-; Delete
-projects[gigya][subdir] = contrib
-projects[gigya][version] = 1.0-beta4
-
-; Delete
-projects[jquery_media][subdir] = contrib
-projects[jquery_media][version] = 1.4-beta1
-
-; Delete
-projects[legal][subdir] = contrib
-projects[legal][version] = 2.2-beta4
-
 ; Keep
 projects[masquerade][subdir] = contrib
 projects[masquerade][version] = 1.3
-
-; Delete
-projects[media_ustream][subdir] = contrib
-projects[media_ustream][version] = 1.0
-
-; Delete
-projects[mobileplugin][subdir] = contrib
-projects[mobileplugin][version] = 2.0
-
-; Delete
-projects[popups][subdir] = contrib
-projects[popups][version] = 2.0-alpha5
 
 ; Keep
 projects[revision_deletion][subdir] = contrib
@@ -59,33 +23,13 @@ projects[revision_deletion][version] = 1.0-rc2
 projects[rpx][subdir] = contrib
 projects[rpx][version] = 1.x-dev
 
-; Delete
-projects[securesite][subdir] = contrib
-projects[securesite][version] = 2.4
-
-; Delete
-projects[spaces][subdir] = contrib
-projects[spaces][version] = 2.0-beta7
-
 ; Keep
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0-rc1
 
-; Delete
-projects[tagadelic][subdir] = contrib
-projects[tagadelic][version] = 1.2
-
 ; Keep
 projects[user_list][subdir] = contrib
 projects[user_list][version] = 1.x-dev
-
-; Delete
-projects[views_customfield][subdir] = contrib
-projects[views_customfield][version] = 1.0
-
-; Delete
-projects[votingapi][subdir] = contrib
-projects[votingapi][version] = 2.3
 
 projects[acquia_connector][subdir] = contrib
 projects[acquia_connector][version] = 2.4
@@ -374,10 +318,6 @@ projects[wysiwyg][version] = 2.4
 ; Keep
 projects[cacheexclude][subdir] = custom
 projects[cacheexclude][version] = 2.1
-
-; Delete
-projects[whitelist][subdir] = custom
-projects[whitelist][version] = 1.0
 
 ; NYSenate.gov modules =====================================================================
 
