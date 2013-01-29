@@ -27,7 +27,10 @@ projects[fivestar][version] = 1.19
 projects[gigya][subdir] = contrib
 projects[gigya][version] = 1.0-beta4
 
-jquery_media1.4-beta1	Delete
+; Delete
+projects[jquery_media][subdir] = contrib
+projects[jquery_media][version] = 1.4-beta1
+
 ; Delete
 projects[legal][subdir] = contrib
 projects[legal][version] = 2.2-beta4
