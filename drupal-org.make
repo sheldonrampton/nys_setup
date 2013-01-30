@@ -32,10 +32,10 @@ projects[user_list][subdir] = contrib
 projects[user_list][version] = 1.x-dev
 
 projects[acquia_connector][subdir] = contrib
-projects[acquia_connector][version] = 2.4
+projects[acquia_connector][version] = 2.9
 
 projects[activism][subdir] = contrib
-projects[activism][version] = 2.0
+projects[activism][version] = 2.1
 
 projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 1.8
@@ -50,13 +50,13 @@ projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][version] = 1.2
 
 projects[backup_migrate][subdir] = contrib
-projects[backup_migrate][version] = 2.4
+projects[backup_migrate][version] = 2.6
 
 projects[better_formats][subdir] = contrib
 projects[better_formats][version] = 1.2
 
 projects[cacheexclude][subdir] = contrib
-projects[cacheexclude][version] = 2.1
+projects[cacheexclude][version] = 2.2
 
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 2.4
@@ -71,7 +71,7 @@ projects[checkbox_validate][subdir] = contrib
 projects[checkbox_validate][version] = 2.1
 
 projects[computed_field][subdir] = contrib
-projects[computed_field][version] = 1.0-beta5
+projects[computed_field][version] = 1.0
 
 projects[conditional_fields][subdir] = contrib
 projects[conditional_fields][version] = 2.0
@@ -92,10 +92,10 @@ projects[cvs_deploy][subdir] = contrib
 projects[cvs_deploy][version] = 1.1
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.8
+projects[date][version] = 2.9
 
 projects[email][subdir] = contrib
-projects[email][version] = 1.2
+projects[email][version] = 1.4
 
 projects[emfield][subdir] = contrib
 projects[emfield][version] = 2.5
@@ -107,7 +107,7 @@ projects[features][subdir] = contrib
 projects[features][version] = 1.2
 
 projects[feeds][subdir] = contrib
-projects[feeds][version] = 1.0-beta11
+projects[feeds][version] = 1.0-beta13
 
 projects[filefield][subdir] = contrib
 projects[filefield][version] = 3.10
