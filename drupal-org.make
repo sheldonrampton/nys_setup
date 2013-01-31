@@ -173,10 +173,10 @@ projects[linkimagefield][subdir] = contrib
 projects[linkimagefield][version] = 1.0-beta2
 
 projects[location][subdir] = contrib
-projects[location][version] = 3.1
+projects[location][version] = 3.2
 
 projects[location_feeds][subdir] = contrib
-projects[location_feeds][version] = 1.4
+projects[location_feeds][version] = 1.5
 
 projects[login_destination][subdir] = contrib
 projects[login_destination][version] = 2.12
@@ -200,7 +200,7 @@ projects[nice_menus][subdir] = contrib
 projects[nice_menus][version] = 2.1
 
 projects[node_export][subdir] = contrib
-projects[node_export][version] = 3.2
+projects[node_export][version] = 3.4
 
 projects[nodereference_url][subdir] = contrib
 projects[nodereference_url][version] = 1.11
@@ -209,7 +209,7 @@ projects[nodereference_views][subdir] = contrib
 projects[nodereference_views][version] = 1.3
 
 projects[nodequeue][subdir] = contrib
-projects[nodequeue][version] = 2.10
+projects[nodequeue][version] = 2.11
 
 projects[og_user_roles][subdir] = contrib
 projects[og_user_roles][version] = 4.1
@@ -221,7 +221,7 @@ projects[openlayers_kml_layer][subdir] = contrib
 projects[openlayers_kml_layer][version] = 1.0-beta1
 
 projects[og][subdir] = contrib
-projects[og][version] = 2.1
+projects[og][version] = 2.4
 
 projects[override_node_options][subdir] = contrib
 projects[override_node_options][version] = 1.12
