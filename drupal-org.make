@@ -174,6 +174,7 @@ projects[linkimagefield][version] = 1.0-beta2
 
 projects[location][subdir] = contrib
 projects[location][version] = 3.2
+projects[location][patch][924318] = http://drupal.org/files/fix_undef_province-924318-1.patch
 
 projects[location_feeds][subdir] = contrib
 projects[location_feeds][version] = 1.5
