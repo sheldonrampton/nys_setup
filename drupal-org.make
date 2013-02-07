@@ -3,6 +3,13 @@ core = 6.x
 
 ; Modules =====================================================================
 
+; to be added to contrib directory -- already part of NYS live website
+; cck_select_other
+; render
+; webform_default_fields
+; webform_locked_fields
+; webform_service
+
 projects[acquia_connector][subdir] = contrib
 projects[acquia_connector][version] = 2.9
 
@@ -20,6 +27,9 @@ projects[advuser][version] = 2.3
 
 projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][version] = 1.2
+
+projects[autoload][subdir] = contrib
+projects[autoload][version] = 2.1
 
 projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.6
