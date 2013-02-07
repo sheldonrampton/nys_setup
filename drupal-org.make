@@ -3,34 +3,6 @@ core = 6.x
 
 ; Modules =====================================================================
 
-; Keep
-projects[devel][subdir] = contrib
-projects[devel][version] = 1.26
-
-; Keep
-projects[drupalforfirebug][subdir] = contrib
-projects[drupalforfirebug][version] = 1.3
-
-; Keep
-projects[masquerade][subdir] = contrib
-projects[masquerade][version] = 1.3
-
-; Keep
-projects[revision_deletion][subdir] = contrib
-projects[revision_deletion][version] = 1.0-rc2
-
-; Keep
-projects[rpx][subdir] = contrib
-projects[rpx][version] = 1.x-dev
-
-; Keep
-projects[strongarm][subdir] = contrib
-projects[strongarm][version] = 2.0-rc1
-
-; Keep
-projects[user_list][subdir] = contrib
-projects[user_list][version] = 1.x-dev
-
 projects[acquia_connector][subdir] = contrib
 projects[acquia_connector][version] = 2.9
 
@@ -94,6 +66,12 @@ projects[cvs_deploy][version] = 1.1
 projects[date][subdir] = contrib
 projects[date][version] = 2.9
 
+projects[devel][subdir] = contrib
+projects[devel][version] = 1.26
+
+projects[drupalforfirebug][subdir] = contrib
+projects[drupalforfirebug][version] = 1.3
+
 projects[email][subdir] = contrib
 projects[email][version] = 1.4
 
@@ -139,9 +117,6 @@ projects[imce][version] = 2.2
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.1
 
-; projects[rpx][subdir] = contrib
-; projects[rpx][version] = 1.x-dev:DEV-NO-EXACT-VERSION
-
 projects[jcarousel][subdir] = contrib
 projects[jcarousel][version] = 1.1
 
@@ -182,6 +157,9 @@ projects[location_feeds][version] = 1.5
 projects[login_destination][subdir] = contrib
 projects[login_destination][version] = 2.12
 
+projects[masquerade][subdir] = contrib
+projects[masquerade][version] = 1.3
+
 projects[media_bliptv][subdir] = contrib
 projects[media_bliptv][version] = 1.0-beta1
 
@@ -211,6 +189,9 @@ projects[nodereference_views][version] = 1.3
 
 projects[nodequeue][subdir] = contrib
 projects[nodequeue][version] = 2.11
+
+projects[oauth][subdir] = contrib
+projects[oauth][version] = 3.0-beta4
 
 projects[og_user_roles][subdir] = contrib
 projects[og_user_roles][version] = 4.1
@@ -251,8 +232,17 @@ projects[raphael][version] = 1.0
 projects[recaptcha][subdir] = contrib
 projects[recaptcha][version] = 1.7
 
+projects[revision_deletion][subdir] = contrib
+projects[revision_deletion][version] = 1.0-rc2
+
 projects[robotstxt][subdir] = contrib
 projects[robotstxt][version] = 1.2
+
+projects[rpx][subdir] = contrib
+projects[rpx][version] = 1.x-dev
+
+; projects[rpx][subdir] = contrib
+; projects[rpx][version] = 1.x-dev:DEV-NO-EXACT-VERSION
 
 projects[service_links][subdir] = contrib
 projects[service_links][version] = 2.0
@@ -265,6 +255,9 @@ projects[smartqueue_nodetypes][version] = 1.2-beta2
 
 projects[spamspan][subdir] = contrib
 projects[spamspan][version] = 1.6
+
+projects[strongarm][subdir] = contrib
+projects[strongarm][version] = 2.0-rc1
 
 projects[taxonomy_list][subdir] = contrib
 projects[taxonomy_list][version] = 1.3
@@ -279,7 +272,10 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.18
 
 projects[twitter][subdir] = contrib
-projects[twitter][version] = 3.0
+projects[twitter][version] = 5.0
+
+projects[user_list][subdir] = contrib
+projects[user_list][version] = 1.x-dev
 
 ; projects[user_list][subdir] = contrib
 ; projects[user_list][version] = 1.x-dev:DEV-NO-EXACT-VERSION
@@ -316,7 +312,6 @@ projects[wysiwyg][version] = 2.4
 
 ; Custom directory modules =====================================================================
 
-; Keep
 projects[cacheexclude][subdir] = custom
 projects[cacheexclude][version] = 2.1
 
