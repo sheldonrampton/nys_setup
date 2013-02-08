@@ -282,7 +282,13 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.18
 
 projects[twitter][subdir] = contrib
-projects[twitter][version] = 5.0
+projects[twitter][version] = 5.x-dev
+projects[twitter][download][type] = "git"
+projects[twitter][download][url] = "http://git.drupal.org/project/twitter.git"
+projects[twitter][download][revision] = 661e817e78f3c93eb7082308b13fa6ecd27a5663
+projects[twitter][download][branch] = 6.x-5.x
+projects[twitter][type] = "module"
+projects[twitter][patch][1911494] = http://drupal.org/files/fatal_error_user_timeline-1911494-1.patch
 
 projects[user_list][subdir] = contrib
 projects[user_list][version] = 1.x-dev
