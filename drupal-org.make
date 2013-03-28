@@ -91,6 +91,10 @@ projects[emfield][version] = 2.5
 projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.11
 
+projects[fblikebutton][subdir] = contrib
+projects[fblikebutton][version] = 2.2
+projects[fblikebutton][patch][1205254] = http://drupal.org/files/print_button_node_tpl_php-1205254-6.patch
+
 projects[features][subdir] = contrib
 projects[features][version] = 1.2
 
@@ -288,7 +292,14 @@ projects[twitter][download][url] = "http://git.drupal.org/project/twitter.git"
 projects[twitter][download][revision] = 6704f0f3f4aee337d48b8f7d5c925bb52c2c3475
 projects[twitter][download][branch] = 6.x-5.x
 projects[twitter][type] = "module"
-projects[twitter][patch][1911494] = http://drupal.org/files/fatal_error_user_timeline-1911494-1.patch
+projects[twitter][patch][1911494] = http://drupal.org/files/hook_twitter_fetch_user_timeline-1943440-1.patch
+projects[twitter][patch][1946510] = http://drupal.org/files/incorrect_status_ids-1946510-1.patch
+
+projects[twitter_delete][subdir] = contrib
+projects[twitter_delete][download][type] = "git"
+projects[twitter_delete][download][url] = "http://git.drupal.org/sandbox/sheldon/1943460.git"
+projects[twitter_delete][download][revision] = 5020c109e8e2b467d8af172f5adae4cef2edd746
+projects[twitter_delete][type] = "module"
 
 projects[user_list][subdir] = contrib
 projects[user_list][version] = 1.x-dev
