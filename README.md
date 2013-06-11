@@ -1,18 +1,6 @@
 NY Senate Setup for Drupal 6.x
 ------------------------------
-Get started building with Drupal fast.
-
-Apps Catalog is a basic distribution meant to capture elements that are generally
-useful and make building Drupal sites and Drupal distributions easier.
-
-Apps Catalog helps site builders
-
-- use install profiles and drush make for defining projects
-- manage the dev > staging > live workflow problem using Features and
-  exportables
-- keep track of important upstream patches that are critical to Drupal
-  distributions
-
+This installation profile creates a local instance of the New York State Senate website.
 
 Requirements
 ------------
@@ -22,7 +10,6 @@ make use of the NY State Senate setup profile:
 - drush 3.1 - http://drupal.org/project/drush
 - drush make 2.0 beta 9 - http://drupal.org/project/drush_make
 - git - http://git-scm.com
-
 
 Getting started
 ---------------
@@ -36,10 +23,15 @@ patches as well as a copy of the `nys_setup` install profile.
 
 2. Choose the "NYS Setup" install profile when installing Drupal
 
+TODO:
+-----
+
+The following contrib modules have patches that need to be reconciled with versions available on drupal.org:
+
+- media_video_flotsam
 
 Maintainers
 -----------
 - Sheldon Rampton
-
 
 [1]: http://drupalcode.org/project/drush_make.git/blob_plain/refs/heads/6.x-2.x:/README.txt
