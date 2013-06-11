@@ -160,7 +160,8 @@ projects[link][version] = 2.9
 
 projects[linkimagefield][subdir] = contrib
 projects[linkimagefield][version] = 1.x-dev
-projects[linkimagefield][patch][759492] = http://drupal.org/files/linkimagefield-no_widget-759492-17.patch
+projects[linkimagefield][patch][759492] = http://raw.github.com/sheldonrampton/nys_setup/master/PATCHES/missing-imagefields-nyss-redmine-6790.patch
+; http://drupal.org/files/linkimagefield-no_widget-759492-17.patch
 
 projects[location][subdir] = contrib
 projects[location][version] = 3.2
