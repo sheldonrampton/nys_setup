@@ -160,6 +160,7 @@ projects[link][version] = 2.9
 
 projects[linkimagefield][subdir] = contrib
 projects[linkimagefield][version] = 1.0-beta2
+projects[linkimagefield][patch][759492] = https://drupal.org/files/linkimagefield-no_widget-759492-17.patch
 
 projects[location][subdir] = contrib
 projects[location][version] = 3.2
@@ -185,6 +186,9 @@ projects[media_vimeo][version] = 1.1
 
 projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 1.3
+
+projects[memcache][subdir] = contrib
+projects[memcache][version] = 1.10
 
 projects[menu_block][subdir] = contrib
 projects[menu_block][version] = 2.4
@@ -312,6 +316,7 @@ projects[vertical_tabs][version] = 1.0-rc2
 
 projects[views][subdir] = contrib
 projects[views][version] = 2.16
+projects[views][patch][2008174] = https://drupal.org/files/php5.3_nodeapi_errors-2008174-1.patch
 
 projects[views_bonus][subdir] = contrib
 projects[views_bonus][version] = 1.1
