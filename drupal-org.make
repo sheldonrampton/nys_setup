@@ -159,7 +159,7 @@ projects[link][subdir] = contrib
 projects[link][version] = 2.9
 
 projects[linkimagefield][subdir] = contrib
-projects[linkimagefield][version] = 1.0-beta2
+projects[linkimagefield][version] = 1.x-dev
 projects[linkimagefield][patch][759492] = http://drupal.org/files/linkimagefield-no_widget-759492-17.patch
 
 projects[location][subdir] = contrib
