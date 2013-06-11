@@ -1,0 +1,13 @@
+diff --git a/linkimagefield_widget.inc b/linkimagefield_widget.inc
+index 503109b..5ab88cd 100644
+--- a/linkimagefield_widget.inc
++++ b/linkimagefield_widget.inc
+@@ -177,7 +177,7 @@ function linkimagefield_widget_process($element, $edit, &$form_state, $form) {
+  * @param arrayreference $element
+  * @return string
+  */
+-function theme_linkimagefield_widget(&$element) {
++function theme_linkimagefield_widget($element) {
+   drupal_add_css(drupal_get_path('module', 'imagefield') .'/imagefield.css');
+   return theme('form_element', $element, $element['#children']);
+ }
