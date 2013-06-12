@@ -65,7 +65,7 @@ projects[contemplate][subdir] = contrib
 projects[contemplate][version] = 1.2
 
 projects[context][subdir] = contrib
-projects[context][version] = 2.0
+projects[context][version] = 3.1
 
 projects[context_http_headers][subdir] = contrib
 projects[context_http_headers][version] = 1.0
